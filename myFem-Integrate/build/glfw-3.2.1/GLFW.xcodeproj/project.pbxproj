@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3A00F3E8E90C47CEB47E17BE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4BE8F08409034188AE1CC53F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				90876C08CDA841B199741440 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		EAD2D807CDD54082B3007860 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4F2FA025838B4B3583DE032C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EFF9BB305004404294ABEFC8 /* CMake Rules */,
+			);
+			dependencies = (
+				A5B15457203F4D3C909B3A3D /* PBXTargetDependency */,
+				C0BAD19E75374A7985774AE3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08EEF22BB83344D2A3D0216A /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = DB53E63B9C3B4CA6AC62D2CF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.c */; };
+		09EB980F085C4CFAAF9683FA /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/window.c */ = {isa = PBXBuildFile; fileRef = 6D56F5C1989547C392F8CC1E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		1B4F2AE9980C41BAB87E78B0 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/input.c */ = {isa = PBXBuildFile; fileRef = 4281360EA5864E7995D5104D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		26AF71179C2E4B089B7CC642 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 4EBD53E67FA247CBA772A30A /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.h */; };
+		2BE015F1CF6A49A5BF0090B2 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = C1EB56E471B54B87BEF8D397 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_init.m */; };
+		40F1F6CDE31645EDAE059431 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 57B71DDA84D649CBB512B1D5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		554CA55C5D454AA998BDD5CF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 56D085F9000A4C71AD8BC594 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.h */; };
+		56F3151D36FE47FAB1603A41 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = D597F89E67514C58B1EA61B5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_monitor.m */; };
+		5964AB34B9874C75BBD32AE4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = C9F0DAA42D554BABB67BDDDA /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.h */; };
+		6082A344DA244FE8AA847E7E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = AB99F79313F8491CB5BBAE67 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_window.m */; };
+		743B10AFC3704BFFA3BBDCE3 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 300DFFDCC0CB478280C62348 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.m */; };
+		8AC658B5778948A78A0EE7BB /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 85877843D5794B6EBF55EA00 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.c */; };
+		96B72187174242C0A8FD4BA2 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = EDAABCB726C141B88A9DF2C5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.h */; };
+		9F679C439F294377A4C5CBA4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/context.c */ = {isa = PBXBuildFile; fileRef = 97C4DD569BD5458D971ADD49 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		B509A1959D3A47149CFB8A50 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = A18186ED903B4E96B081D42E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3native.h */; };
+		B61B4907428E49D1BDF0EB3D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = AE1903F9D65B4E988E4548CC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_platform.h */; };
+		BC14224B6DE544649E926AA4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 2055E68F34B04665B2DE73B8 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_time.c */; };
+		C0B5A9B89DAE45E7B3E31277 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 5DB0E598766E42AD816FA780 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.h */; };
+		C762EA492F754F429E6EA181 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/init.c */ = {isa = PBXBuildFile; fileRef = 023C637A41CA40CB9ACFDC20 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		CA66E769E2364044AE6868E4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 4BFEBB0B8D89472FB5C3444E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3.h */; };
+		CAD856BC4E164638A6786CB6 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = E32B523135CE43E596EB05C6 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		CF5EAEC58FAE4067A9B85C64 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = AA47F0E2EEE64EF7904E05BC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.c */; };
+		D7E38C53EE8D4FEF9454AC42 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = EE8C7FCECE1F48D7AF71A1BF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.m */; };
+		DFFB122A0DA44C6BBEC00CA9 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/mappings.h */ = {isa = PBXBuildFile; fileRef = FD96652E3D4044EFB811E491 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/mappings.h */; };
+		E53D54C6083041C897F96BBE /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC628467D3DE49CAB8D4061D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/CMakeLists.txt */; };
+		EA39204BE9C945828442685E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = BA3C6576D0774AED8DB91B43 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src/glfw_config.h */; };
+		EFE1533EA2E54604BAA8A073 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/internal.h */ = {isa = PBXBuildFile; fileRef = 2A913DE0C7964FC1B9667435 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/internal.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		44DA8D56DEB34F01B1449C93 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B596863A934C425F8A7964AE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DDD8BBF494474DB09D16C3AF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E43FD77AEF3340CAB1E6C94A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		31EB1BE4667A4B5EB8CA2A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2FABC620FE47C4AF64F843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FB81D4D26C4F09AA915248;
+			remoteInfo = glfw;
+		};
+		CA75B3ECC4F04575B7461374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2FABC620FE47C4AF64F843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A00F3E8E90C47CEB47E17BE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023C637A41CA40CB9ACFDC20 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		1EE598208B0B49D986E32A02 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2055E68F34B04665B2DE73B8 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		2A913DE0C7964FC1B9667435 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		300DFFDCC0CB478280C62348 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		4281360EA5864E7995D5104D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		4BFEBB0B8D89472FB5C3444E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		4EBD53E67FA247CBA772A30A /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		56D085F9000A4C71AD8BC594 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		57B71DDA84D649CBB512B1D5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		5DB0E598766E42AD816FA780 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		5F8ED9F3F9BB495DA922BAB7 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D56F5C1989547C392F8CC1E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		85877843D5794B6EBF55EA00 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		97C4DD569BD5458D971ADD49 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		A18186ED903B4E96B081D42E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		AA47F0E2EEE64EF7904E05BC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		AB99F79313F8491CB5BBAE67 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		AE1903F9D65B4E988E4548CC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		BA3C6576D0774AED8DB91B43 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2.1/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		C1EB56E471B54B87BEF8D397 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		C9F0DAA42D554BABB67BDDDA /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		D597F89E67514C58B1EA61B5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		DB53E63B9C3B4CA6AC62D2CF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		DC628467D3DE49CAB8D4061D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E32B523135CE43E596EB05C6 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		EDAABCB726C141B88A9DF2C5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		EE8C7FCECE1F48D7AF71A1BF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		F6570C39096B4194BAFD9F19 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FD96652E3D4044EFB811E491 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1EBBC1439CAE4DFCB09E1B41 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA3C6576D0774AED8DB91B43 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src/glfw_config.h */,
+				4BFEBB0B8D89472FB5C3444E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3.h */,
+				A18186ED903B4E96B081D42E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include/GLFW/glfw3native.h */,
+				EDAABCB726C141B88A9DF2C5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.h */,
+				AE1903F9D65B4E988E4548CC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_platform.h */,
+				4EBD53E67FA247CBA772A30A /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.h */,
+				2A913DE0C7964FC1B9667435 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/internal.h */,
+				FD96652E3D4044EFB811E491 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/mappings.h */,
+				5DB0E598766E42AD816FA780 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.h */,
+				C9F0DAA42D554BABB67BDDDA /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.h */,
+				56D085F9000A4C71AD8BC594 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		26C8B3FE02154B1088B6BC4A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		45B8AB5AF09C4C5DA0B738F6 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				490CE6F1BDBD4FE0BD5C3DA3 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		490CE6F1BDBD4FE0BD5C3DA3 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				EB9007ADE00C407AB44BC042 /* Source Files */,
+				1EBBC1439CAE4DFCB09E1B41 /* Header Files */,
+				DC628467D3DE49CAB8D4061D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		5DCDC53FEA2A49FAA530A846 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6AC5A6652E3040C4A22C212B = {
+			isa = PBXGroup;
+			children = (
+				8BFA2F2C136D478899360466 /* ALL_BUILD */,
+				D29D43D9A78A4C69A01F3DE9 /* ZERO_CHECK */,
+				45B8AB5AF09C4C5DA0B738F6 /* GLFW3 */,
+				7EC0264DDC514A5A97FD3BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC0264DDC514A5A97FD3BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE598208B0B49D986E32A02 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFA2F2C136D478899360466 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				26C8B3FE02154B1088B6BC4A /* CMake Rules */,
+				5F8ED9F3F9BB495DA922BAB7 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D29D43D9A78A4C69A01F3DE9 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDC53FEA2A49FAA530A846 /* CMake Rules */,
+				F6570C39096B4194BAFD9F19 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		EB9007ADE00C407AB44BC042 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1EB56E471B54B87BEF8D397 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_init.m */,
+				EE8C7FCECE1F48D7AF71A1BF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.m */,
+				D597F89E67514C58B1EA61B5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_monitor.m */,
+				2055E68F34B04665B2DE73B8 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_time.c */,
+				AB99F79313F8491CB5BBAE67 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_window.m */,
+				97C4DD569BD5458D971ADD49 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/context.c */,
+				AA47F0E2EEE64EF7904E05BC /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.c */,
+				023C637A41CA40CB9ACFDC20 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/init.c */,
+				4281360EA5864E7995D5104D /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/input.c */,
+				57B71DDA84D649CBB512B1D5 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/monitor.c */,
+				300DFFDCC0CB478280C62348 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.m */,
+				85877843D5794B6EBF55EA00 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.c */,
+				DB53E63B9C3B4CA6AC62D2CF /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.c */,
+				E32B523135CE43E596EB05C6 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/vulkan.c */,
+				6D56F5C1989547C392F8CC1E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FB81D4D26C4F09AA915248 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD14713F1A1E4070B172BFB0 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				2C83F30FA9114FD886FE64FF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 1EE598208B0B49D986E32A02 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2FABC620FE47C4AF64F843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 3C3E6D5988294D0AB072A8F4 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E43FD77AEF3340CAB1E6C94A /* Debug */,
+				DDD8BBF494474DB09D16C3AF /* Release */,
+				B596863A934C425F8A7964AE /* MinSizeRel */,
+				44DA8D56DEB34F01B1449C93 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6AC5A6652E3040C4A22C212B;
+			projectDirPath = "../../glfw-3.2.1";
+			projectRoot = "";
+			targets = (
+				EAD2D807CDD54082B3007860 /* ALL_BUILD */,
+				3A00F3E8E90C47CEB47E17BE /* ZERO_CHECK */,
+				78FB81D4D26C4F09AA915248 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90876C08CDA841B199741440 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1 -f /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E875BC719D274DE6BABB4327 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EC450B04E80B4E40AF789C58 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EFF9BB305004404294ABEFC8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1 -f /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C83F30FA9114FD886FE64FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE015F1CF6A49A5BF0090B2 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_init.m */,
+				D7E38C53EE8D4FEF9454AC42 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_joystick.m */,
+				56F3151D36FE47FAB1603A41 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_monitor.m */,
+				BC14224B6DE544649E926AA4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_time.c */,
+				6082A344DA244FE8AA847E7E /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/cocoa_window.m */,
+				9F679C439F294377A4C5CBA4 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/context.c */,
+				CF5EAEC58FAE4067A9B85C64 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/egl_context.c */,
+				C762EA492F754F429E6EA181 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/init.c */,
+				1B4F2AE9980C41BAB87E78B0 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/input.c */,
+				40F1F6CDE31645EDAE059431 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/monitor.c */,
+				743B10AFC3704BFFA3BBDCE3 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/nsgl_context.m */,
+				8AC658B5778948A78A0EE7BB /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/osmesa_context.c */,
+				08EEF22BB83344D2A3D0216A /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/posix_thread.c */,
+				CAD856BC4E164638A6786CB6 /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/vulkan.c */,
+				09EB980F085C4CFAAF9683FA /* /Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B15457203F4D3C909B3A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FB81D4D26C4F09AA915248 /* glfw */;
+			targetProxy = 31EB1BE4667A4B5EB8CA2A63 /* PBXContainerItemProxy */;
+		};
+		C0BAD19E75374A7985774AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A00F3E8E90C47CEB47E17BE /* ZERO_CHECK */;
+			targetProxy = CA75B3ECC4F04575B7461374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0219CD68741A40829752D11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		040A05C68D2F4EAE99F0423B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0C34AFCDC7AE48BEAFEF4135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1392B161730B44F5BAAC5E55 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		28B84CE4B8D0498DA82974A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		32DACC45DCA54F57BCD7342D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5E4EE69D128D49A19A899D79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A20327AF5364E6E979E3C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B2966A430A3B4A5CB15CE2DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B9A44537113F4991AA9548D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CD4699831F534739879529C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/include","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/glfw-3.2.1/src","/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D9F63FAB6BCA48888E4FE86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/build";
+			};
+			name = Release;
+		};
+		DD53B69E08314B459CA5BC5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E05D917099C34A32B38D0F28 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/build";
+			};
+			name = MinSizeRel;
+		};
+		ECC1FB1536954421A68E7587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1/build";
+			};
+			name = Debug;
+		};
+		FD2D5CD47E1D41F6877E9DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/admin/desktop/Bachelier/Q4/LMECA1120/Devoirs/myFem-Integrate/build/glfw-3.2.1";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C3E6D5988294D0AB072A8F4 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC1FB1536954421A68E7587 /* Debug */,
+				D9F63FAB6BCA48888E4FE86B /* Release */,
+				E05D917099C34A32B38D0F28 /* MinSizeRel */,
+				B2966A430A3B4A5CB15CE2DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4BE8F08409034188AE1CC53F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2D5CD47E1D41F6877E9DC8 /* Debug */,
+				0C34AFCDC7AE48BEAFEF4135 /* Release */,
+				1392B161730B44F5BAAC5E55 /* MinSizeRel */,
+				DD53B69E08314B459CA5BC5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F2FA025838B4B3583DE032C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B84CE4B8D0498DA82974A2 /* Debug */,
+				B9A44537113F4991AA9548D8 /* Release */,
+				5E4EE69D128D49A19A899D79 /* MinSizeRel */,
+				32DACC45DCA54F57BCD7342D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD14713F1A1E4070B172BFB0 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0219CD68741A40829752D11A /* Debug */,
+				6A20327AF5364E6E979E3C55 /* Release */,
+				040A05C68D2F4EAE99F0423B /* MinSizeRel */,
+				CD4699831F534739879529C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2FABC620FE47C4AF64F843 /* Project object */;
+}
